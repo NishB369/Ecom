@@ -3,7 +3,7 @@ import paymentMethods from "../../../public/assets/paymentMethods.png";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-[#2a9f7c] px-10 sm:px-20 py-8 pb-10 flex flex-col gap-4">
+    <div className="w-full bg-black px-10 sm:px-20 py-8 pb-10 flex flex-col gap-4">
       <div className="top_ctr flex items-start justify-between w-full h-auto py-6 flex-wrap md:flex-nowrap">
         <div className="left_ctr mb-6 sm:mb-0 w-full sm:w-3/12 flex flex-col gap-3">
           <div className="main_heading font-bold text-white text-lg">
@@ -72,7 +72,7 @@ const Footer = () => {
           <div className="flex flex-col gap-3">
             <input
               placeholder="Your email address"
-              className="w-full text-sm px-6 py-3 rounded-md bg-[#8f5e14] text-white placeholder:text-white"
+              className="w-full text-sm px-6 py-3 rounded-md bg-[#111827] text-white placeholder:text-white"
             ></input>
             <button className="w-full text-sm px-6 py-3 rounded-md bg-white/90 text-[#1F2937]">
               Subscribe

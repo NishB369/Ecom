@@ -7,7 +7,7 @@ const Header = () => {
   }
   return (
     <>
-      <div className="main_ctr w-full flex items-center justify-between gap-8 px-10 py-4 pt-8">
+      <div className="main_ctr w-full flex items-center justify-between gap-8 px-10 py-4 pt-5 bg-black text-white">
         <div
           className={`hamburger bi bi-list lg:hidden cursor-pointer ${
             isHamBurger ? "bi bi-x-circle" : ""
